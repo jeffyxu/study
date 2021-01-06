@@ -1,0 +1,19 @@
+问题1：rabbitmq交换机的几种类型的
+问题2：spring boot的加载过程
+问题3：基本算法
+
+invokeBeanDefinitionRegistryPostProcessors
+ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry
+ConfigurationClassPostProcessor.processConfigBeanDefinitions
+
+
+configurationClassParser  processImports() 处理import
+
+processImports
+
+AutoConfigurationImportSelector 处理自动配置选择器
+
+DeferredImportSelectorGroupingHandler处理
+
+
+org.springframework.boot.autoconfigure.EnableAutoConfiguration
